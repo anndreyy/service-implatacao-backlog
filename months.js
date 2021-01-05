@@ -78,19 +78,16 @@ const formatedData = (rows, sheetName) => {
 
 }
 
-const saveToCSV = (arr) => {
+const saveToCSV = async (arr) => {
     const csvFromArrayOfArrays = convertArrayToCSV(arr, {
         header,
         separator: ';'
     });
 
     fs = require('fs');
-    fs.writeFile('./export/months.csv', csvFromArrayOfArrays,{encoding: 'ascii'}, function (err) {
-        if (err) return console.log(err);
+    fs.writeFileSync('./export/months.csv', csvFromArrayOfArrays,{encoding: 'ascii'})
 
-        console.log("foi: months ");
-
-    });
+   console.log("foi months");
 }
 
 // Executa

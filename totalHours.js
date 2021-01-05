@@ -41,7 +41,7 @@ const execute = async () => {
 
     // console.log(newRows);
 
-    saveToCSV(newRows);
+    await saveToCSV(newRows);
 
 }
 
@@ -53,19 +53,16 @@ const getRows = (sheetName) => {
     return readXlsxFile(base, { sheet: sheetName });
 }
 
-const saveToCSV = (arr) => {
+const saveToCSV = async (arr) => {
     const csvFromArrayOfArrays = convertArrayToCSV(arr, {
         header,
         separator: ';'
     });
 
     fs = require('fs');
-    fs.writeFile('./export/totalHours.csv', csvFromArrayOfArrays,{encoding: 'ascii'}, function (err) {
-        if (err) return console.log(err);
+    fs.writeFileSync('./export/totalHours.csv', csvFromArrayOfArrays,{encoding: 'ascii'});
 
-        console.log("foi: totalHours");
-
-    });
+    console.log("foi totalHours")
 }
 
 
