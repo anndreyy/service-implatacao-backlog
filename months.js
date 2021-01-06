@@ -8,7 +8,7 @@ var header = [
     'Backlog inicial (saldo em horas)',
     'Horas executadas no mes',
     'Horas adicionadas no mes',
-    'Horas de vendas no mês',
+    'Horas de vendas no mes',
     'Backlog final (saldo em horas)',
     'Agrupador',
     'data'
