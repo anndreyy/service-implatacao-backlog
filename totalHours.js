@@ -34,7 +34,7 @@ const execute = async () => {
             newRows.push( [
                 month, // mês
                 row[j], // valor
-                row[0] // agrupamento
+                removeAcento(row[0]) // agrupamento
             ]);
         }
     }
@@ -43,6 +43,21 @@ const execute = async () => {
 
     await saveToCSV(newRows);
 
+}
+
+const removeAcento = (text) =>
+{    
+    if(typeof text !== 'string'){
+        return text;
+    }
+    // text = text.toLowerCase();                                                         
+    text = text.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
+    text = text.replace(new RegExp('[ÉÈÊ]','gi'), 'e');
+    text = text.replace(new RegExp('[ÍÌÎ]','gi'), 'i');
+    text = text.replace(new RegExp('[ÓÒÔÕ]','gi'), 'o');
+    text = text.replace(new RegExp('[ÚÙÛ]','gi'), 'u');
+    text = text.replace(new RegExp('[Ç]','gi'), 'c');
+    return text;                 
 }
 
 const getSheets = () => {

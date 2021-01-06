@@ -4,10 +4,10 @@ const { convertArrayToCSV } = require('convert-array-to-csv');
 const base = "./base/Alocação e produtividade das equipes.xlsx";
 
 var header = [
-    'Equipe de Implantação',
+    'Equipe de Implantacao',
     'Backlog inicial (saldo em horas)',
-    'Horas executadas no mês',
-    'Horas adicionadas no mês',
+    'Horas executadas no mes',
+    'Horas adicionadas no mes',
     'Backlog final (saldo em horas)',
     'Agrupador',
     'data'
@@ -67,15 +67,33 @@ const formatedData = (rows, sheetName) => {
 
         } else {
             // Fixa o agrupador na linha
-            row.push(agrupador);
+            row.push(removeAcento(agrupador));
             row.push(sheetName);
 
+            // remove os acentos da linhas
+            row[0] = removeAcento(row[0]);
+            
             newRows.push(row);
         }
     }
 
     return newRows;
 
+}
+
+const removeAcento = (text) =>
+{    
+    if(typeof text !== 'string'){
+        return text;
+    }
+    // text = text.toLowerCase();                                                         
+    text = text.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
+    text = text.replace(new RegExp('[ÉÈÊ]','gi'), 'e');
+    text = text.replace(new RegExp('[ÍÌÎ]','gi'), 'i');
+    text = text.replace(new RegExp('[ÓÒÔÕ]','gi'), 'o');
+    text = text.replace(new RegExp('[ÚÙÛ]','gi'), 'u');
+    text = text.replace(new RegExp('[Ç]','gi'), 'c');
+    return text;                 
 }
 
 const saveToCSV = async (arr) => {
@@ -85,7 +103,7 @@ const saveToCSV = async (arr) => {
     });
 
     fs = require('fs');
-    fs.writeFileSync('./export/months.csv', csvFromArrayOfArrays,{encoding: 'ascii'})
+    fs.writeFileSync('./export/months.csv', csvFromArrayOfArrays,{encoding: 'utf8'})
 
    console.log("foi months");
 }
