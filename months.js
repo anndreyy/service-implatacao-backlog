@@ -8,6 +8,7 @@ var header = [
     'Backlog inicial (saldo em horas)',
     'Horas executadas no mes',
     'Horas adicionadas no mes',
+    'Horas de vendas no mês',
     'Backlog final (saldo em horas)',
     'Agrupador',
     'data'
@@ -72,8 +73,32 @@ const formatedData = (rows, sheetName) => {
 
             // remove os acentos da linhas
             row[0] = removeAcento(row[0]);
-            
-            newRows.push(row);
+
+            if(sheetName !==  'Dezembro.20'){
+                newRows.push([
+                   row[0],         // 'Equipe de Implantacao',
+                   row[1],         // 'Backlog inicial (saldo em horas)',
+                   row[2],         // 'Horas executadas no mes',
+                   row[3],         // 'Horas adicionadas no mes',
+                   null,           // 'Horas de vendas no mês',
+                   row[4],         // 'Backlog final (saldo em horas)',
+                   row[5],         // 'Agrupador',
+                   row[6],         // 'data'
+                ])
+            }else{
+                newRows.push([
+                    row[0],         // 'Equipe de Implantacao',
+                    row[1],         // 'Backlog inicial (saldo em horas)',
+                    row[2],         // 'Horas executadas no mes',
+                    row[3],         // 'Horas adicionadas no mes',
+                    row[4],         // 'Horas de vendas no mês',
+                    row[5],         // 'Backlog final (saldo em horas)',
+                    row[6],         // 'Agrupador',
+                    row[7],         // 'data'
+                 ])
+
+            }
+
         }
     }
 
