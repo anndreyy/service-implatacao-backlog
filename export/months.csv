@@ -1,4 +1,4 @@
-Equipe de Implantacao;Backlog inicial (saldo em horas);Horas executadas no mes;Horas adicionadas no mes;Horas de vendas no mês;Backlog final (saldo em horas);Agrupador;data
+Equipe de Implantacao;Backlog inicial (saldo em horas);Horas executadas no mes;Horas adicionadas no mes;Horas de vendas no mes;Backlog final (saldo em horas);Agrupador;data
 Bancos - core, credito, SPB - Curitiba;1044;254;0;"";790;Dividas de implantacoes passadas;Abril.20
 Bancos - core, credito, SPB - BH;426;206;103;"";323;Dividas de implantacoes passadas;Abril.20
 Bancos - investimentos;1687;2378;1292;"";601;Dividas de implantacoes passadas;Abril.20
@@ -164,7 +164,7 @@ Fundos;240;495;1392;"";1137;Novas implantacoes com receita associada (nova RRA);
 Previdencia - Amadeus e Cardeal;23559;2361;0;"";21198;Novas implantacoes com receita associada (nova RRA);Novembro.20
 Previdencia - Prevnet;38866;3257;8251;"";43860;Novas implantacoes com receita associada (nova RRA);Novembro.20
 Previdencia - Florianopolis;1828;250;790;"";2368;Novas implantacoes com receita associada (nova RRA);Novembro.20
-Consorcios;5635;679;0;"";4956;Novas implantacoes com receita associada (nova RRA);Novembro.20
+Consorcios;5635;679;3540;"";8496;Novas implantacoes com receita associada (nova RRA);Novembro.20
 Bancos - core, credito, SPB - Curitiba;89;150;114;"";53;Novas implantacoes sem receita associada (nova RRA);Novembro.20
 Bancos - core, credito, SPB - BH;223;94;0;"";129;Novas implantacoes sem receita associada (nova RRA);Novembro.20
 Bancos - investimentos;162;162;168;"";168;Novas implantacoes sem receita associada (nova RRA);Novembro.20
@@ -173,27 +173,51 @@ Previdencia - Amadeus e Cardeal;906;553;265;"";618;Novas implantacoes sem receit
 Previdencia - Prevnet;21960;1841;0;"";20119;Novas implantacoes sem receita associada (nova RRA);Novembro.20
 Previdencia - Florianopolis;535;0;0;"";535;Novas implantacoes sem receita associada (nova RRA);Novembro.20
 Consorcios;56;0;0;"";56;Novas implantacoes sem receita associada (nova RRA);Novembro.20
-Bancos - core, credito, SPB - Curitiba;1055;"";"";1;1056;Dividas de implantacoes passadas;Dezembro.20
-Bancos - core, credito, SPB - BH;172;"";"";2;174;Dividas de implantacoes passadas;Dezembro.20
-Bancos - investimentos;0;"";"";3;3;Dividas de implantacoes passadas;Dezembro.20
-Fundos;0;"";"";4;4;Dividas de implantacoes passadas;Dezembro.20
-Previdencia - Amadeus e Cardeal;8713;"";"";5;8718;Dividas de implantacoes passadas;Dezembro.20
-Previdencia - Prevnet;2598;"";"";6;2604;Dividas de implantacoes passadas;Dezembro.20
-Previdencia - Florianopolis;230;"";"";7;237;Dividas de implantacoes passadas;Dezembro.20
-Consorcios;0;"";"";8;8;Dividas de implantacoes passadas;Dezembro.20
-Bancos - core, credito, SPB - Curitiba;9858;"";"";9;9867;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Bancos - core, credito, SPB - BH;598;"";"";10;608;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Bancos - investimentos;11996;"";"";11;12007;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Fundos;1137;"";"";12;1149;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Previdencia - Amadeus e Cardeal;21198;"";"";13;21211;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Previdencia - Prevnet;43860;"";"";14;43874;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Previdencia - Florianopolis;2368;"";"";15;2383;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Consorcios;4956;"";"";12;4968;Novas implantacoes com receita associada (nova RRA);Dezembro.20
-Bancos - core, credito, SPB - Curitiba;53;"";"";17;70;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
-Bancos - core, credito, SPB - BH;129;"";"";1212;1341;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
-Bancos - investimentos;168;"";"";12;180;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
-Fundos;48;"";"";1;49;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
-Previdencia - Amadeus e Cardeal;618;"";"";21;639;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
-Previdencia - Prevnet;20119;"";"";2;20121;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
-Previdencia - Florianopolis;535;"";"";12;547;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
-Consorcios;56;"";"";12;68;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Bancos - core, credito, SPB - Curitiba;1055;219;408;0;1244;Dividas de implantacoes passadas;Dezembro.20
+Bancos - core, credito, SPB - BH;172;0;0;0;172;Dividas de implantacoes passadas;Dezembro.20
+Bancos - investimentos;0;0;0;0;0;Dividas de implantacoes passadas;Dezembro.20
+Fundos;0;0;0;0;0;Dividas de implantacoes passadas;Dezembro.20
+Previdencia - Amadeus e Cardeal;8713;256;0;0;8457;Dividas de implantacoes passadas;Dezembro.20
+Previdencia - Prevnet;2598;178;0;0;2420;Dividas de implantacoes passadas;Dezembro.20
+Previdencia - Florianopolis;230;0;0;0;230;Dividas de implantacoes passadas;Dezembro.20
+Consorcios;0;0;0;0;0;Dividas de implantacoes passadas;Dezembro.20
+Bancos - core, credito, SPB - Curitiba;9858;3437;0;0;6421;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Bancos - core, credito, SPB - BH;598;762;345;842;1023;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Bancos - investimentos;11996;1634;0;0;10362;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Fundos;1137;521;202;0;818;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Previdencia - Amadeus e Cardeal;21198;2988;0;0;18210;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Previdencia - Prevnet;43860;3257;0;0;40603;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Previdencia - Florianopolis;2368;235;0;0;2133;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Consorcios;8496;605;0;0;7891;Novas implantacoes com receita associada (nova RRA);Dezembro.20
+Bancos - core, credito, SPB - Curitiba;53;112;264;0;205;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Bancos - core, credito, SPB - BH;129;15;0;0;114;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Bancos - investimentos;168;90;0;0;78;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Fundos;48;0;0;0;48;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Previdencia - Amadeus e Cardeal;618;611;0;0;7;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Previdencia - Prevnet;20119;1534;0;0;18585;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Previdencia - Florianopolis;535;0;0;0;535;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Consorcios;56;0;0;0;56;Novas implantacoes sem receita associada (nova RRA);Dezembro.20
+Bancos - core, credito, SPB - Curitiba;1244;"";"";"";1244;Dividas de implantacoes passadas;Janeiro.21
+Bancos - core, credito, SPB - BH;172;"";"";"";172;Dividas de implantacoes passadas;Janeiro.21
+Bancos - investimentos;0;"";"";"";0;Dividas de implantacoes passadas;Janeiro.21
+Fundos;0;"";"";"";0;Dividas de implantacoes passadas;Janeiro.21
+Previdencia - Amadeus e Cardeal;8457;"";"";"";8457;Dividas de implantacoes passadas;Janeiro.21
+Previdencia - Prevnet;2420;"";"";"";2420;Dividas de implantacoes passadas;Janeiro.21
+Previdencia - Florianopolis;230;"";"";"";230;Dividas de implantacoes passadas;Janeiro.21
+Consorcios;0;"";"";"";0;Dividas de implantacoes passadas;Janeiro.21
+Bancos - core, credito, SPB - Curitiba;6421;"";"";"";6421;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Bancos - core, credito, SPB - BH;1023;"";"";"";1023;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Bancos - investimentos;10362;"";"";"";10362;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Fundos;818;"";"";"";818;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Previdencia - Amadeus e Cardeal;18210;"";"";"";18210;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Previdencia - Prevnet;40603;"";"";"";40603;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Previdencia - Florianopolis;2133;"";"";"";2133;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Consorcios;7891;"";"";"";7891;Novas implantacoes com receita associada (nova RRA);Janeiro.21
+Bancos - core, credito, SPB - Curitiba;205;"";"";"";205;Novas implantacoes sem receita associada (nova RRA);Janeiro.21
+Bancos - core, credito, SPB - BH;114;"";"";"";114;Novas implantacoes sem receita associada (nova RRA);Janeiro.21
+Bancos - investimentos;78;"";"";"";78;Novas implantacoes sem receita associada (nova RRA);Janeiro.21
+Fundos;48;"";"";"";48;Novas implantacoes sem receita associada (nova RRA);Janeiro.21
+Previdencia - Amadeus e Cardeal;7;"";"";"";7;Novas implantacoes sem receita associada (nova RRA);Janeiro.21
+Previdencia - Prevnet;18585;"";"";"";18585;Novas implantacoes sem receita associada (nova RRA);Janeiro.21
+Previdencia - Florianopolis;535;"";"";"";535;Novas implantacoes sem receita associada (nova RRA);Janeiro.21
+Consorcios;56;"";"";"";56;Novas implantacoes sem receita associada (nova RRA);Janeiro.21

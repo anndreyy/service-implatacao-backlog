@@ -29,7 +29,7 @@ Junho.20;840;Consorcio
 Julho.20;25032;Implantacao
 Julho.20;11928;Bancos
 Julho.20;5245;Core BH e Investimentos
-Julho.20;6683;Core CWB
+Julho.20;6482;Core CWB
 Julho.20;840;Fundos
 Julho.20;11592;Previdencia
 Julho.20;"";Amadeus e Cardeal
@@ -38,7 +38,7 @@ Julho.20;840;Consorcio
 Agosto.20;25368;Implantacao
 Agosto.20;12096;Bancos
 Agosto.20;6949;Core BH e Investimentos
-Agosto.20;5147;Core CWB
+Agosto.20;5377;Core CWB
 Agosto.20;840;Fundos
 Agosto.20;11592;Previdencia
 Agosto.20;"";Amadeus e Cardeal
@@ -47,7 +47,7 @@ Agosto.20;840;Consorcio
 Setembro.20;27048;Implantacao
 Setembro.20;13104;Bancos
 Setembro.20;7376;Core BH e Investimentos
-Setembro.20;5728;Core CWB
+Setembro.20;5732;Core CWB
 Setembro.20;840;Fundos
 Setembro.20;12264;Previdencia
 Setembro.20;"";Amadeus e Cardeal
@@ -56,27 +56,36 @@ Setembro.20;840;Consorcio
 Outubro.20;26712;Implantacao
 Outubro.20;12600;Bancos
 Outubro.20;6859;Core BH e Investimentos
-Outubro.20;5741;Core CWB
+Outubro.20;5602;Core CWB
 Outubro.20;840;Fundos
-Outubro.20;12432;Previdencia
+Outubro.20;0;Previdencia
 Outubro.20;4872;Amadeus e Cardeal
 Outubro.20;7560;SQ Previdencia
 Outubro.20;840;Consorcio
 Novembro.20;22204;Implantacao
 Novembro.20;10413;Bancos
 Novembro.20;5155;Core BH e Investimentos
-Novembro.20;5258;Core CWB
+Novembro.20;5200;Core CWB
 Novembro.20;703;Fundos
-Novembro.20;10416;Previdencia
+Novembro.20;0;Previdencia
 Novembro.20;4704;Amadeus e Cardeal
 Novembro.20;5712;SQ Previdencia
 Novembro.20;672;Consorcio
-Dezembro.20;"";Implantacao
-Dezembro.20;"";Bancos
-Dezembro.20;"";Core BH e Investimentos
-Dezembro.20;"";Core CWB
-Dezembro.20;"";Fundos
-Dezembro.20;"";Previdencia
-Dezembro.20;"";Amadeus e Cardeal
-Dezembro.20;"";SQ Previdencia
-Dezembro.20;"";Consorcio
+Dezembro.20;21256;Implantacao
+Dezembro.20;9612;Bancos
+Dezembro.20;4868;Core BH e Investimentos
+Dezembro.20;4744;Core CWB
+Dezembro.20;472;Fundos
+Dezembro.20;0;Previdencia
+Dezembro.20;4788;Amadeus e Cardeal
+Dezembro.20;5712;SQ Previdencia
+Dezembro.20;672;Consorcio
+Janeiro.21;"";Implantacao
+Janeiro.21;"";Bancos
+Janeiro.21;"";Core BH e Investimentos
+Janeiro.21;"";Core CWB
+Janeiro.21;"";Fundos
+Janeiro.21;"";Previdencia
+Janeiro.21;"";Amadeus e Cardeal
+Janeiro.21;"";SQ Previdencia
+Janeiro.21;"";Consorcio

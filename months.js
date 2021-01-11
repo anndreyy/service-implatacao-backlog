@@ -72,20 +72,12 @@ const formatedData = (rows, sheetName) => {
             row.push(sheetName);
 
             // remove os acentos da linhas
-            row[0] = removeAcento(row[0]);
+            row[0] = removeAcento(row[0]);  
 
-            if(sheetName !==  'Dezembro.20'){
-                newRows.push([
-                   row[0],         // 'Equipe de Implantacao',
-                   row[1],         // 'Backlog inicial (saldo em horas)',
-                   row[2],         // 'Horas executadas no mes',
-                   row[3],         // 'Horas adicionadas no mes',
-                   null,           // 'Horas de vendas no mês',
-                   row[4],         // 'Backlog final (saldo em horas)',
-                   row[5],         // 'Agrupador',
-                   row[6],         // 'data'
-                ])
-            }else{
+            var dateYear = parseInt(sheetName.split('.')[1]);
+
+            // cria uma formatação diferente a partir de dezembro de 2020 em diante
+            if(sheetName ===  'Dezembro.20' || dateYear >= 21  ){
                 newRows.push([
                     row[0],         // 'Equipe de Implantacao',
                     row[1],         // 'Backlog inicial (saldo em horas)',
@@ -95,6 +87,18 @@ const formatedData = (rows, sheetName) => {
                     row[5],         // 'Backlog final (saldo em horas)',
                     row[6],         // 'Agrupador',
                     row[7],         // 'data'
+                 ])
+              
+            }else{
+                 newRows.push([
+                    row[0],         // 'Equipe de Implantacao',
+                    row[1],         // 'Backlog inicial (saldo em horas)',
+                    row[2],         // 'Horas executadas no mes',
+                    row[3],         // 'Horas adicionadas no mes',
+                    null,           // 'Horas de vendas no mês',
+                    row[4],         // 'Backlog final (saldo em horas)',
+                    row[5],         // 'Agrupador',
+                    row[6],         // 'data'
                  ])
 
             }
